@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportilef - Estilo de Vida Ativo</title>
+    <style>
+        /* Reset de estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Conteúdo Principal */
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .main-section {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .main-section h2 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #2a5298;
+            padding-bottom: 0.5rem;
+        }
+
+        /* Grid de Destaques */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-top: 4px solid #2a5298;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #2a5298;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 1rem;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SPORTILEF</h1>
+        <p>Movimento, Saúde e Performance no Seu Ritmo</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="main-section">
+            <h2>O que é o Conceito Sportilef?</h2>
+            <p>Sportilef representa a busca pelo equilíbrio perfeito entre a prática esportiva, o bem-estar mental e a evolução pessoal. Mais do que apenas focar em rendimento atlético, propomos uma filosofia de vida onde a atividade física se integra perfeitamente à rotina diária, promovendo longevidade e disposição.</p>
+        </section>
+
+        <main class="grid">
+            <article class="card">
+                <h3>Treinamento Consciente</h3>
+                <p>Metodologias adaptadas para respeitar os limites do corpo, focando em consistência e evolução gradual para evitar lesões.</p>
+            </article>
+
+            <article class="card">
+                <h3>Nutrição Equilibrada</h3>
+                <p>Descubra como alimentar sua performance sem radicalismos, priorizando a densidade nutricional e a energia sustentável.</p>
+            </article>
+
+            <article class="card">
+                <h3>Mente Ativa</h3>
+                <p>O esporte como ferramenta de saúde mental. Técnicas de foco, resiliência e redução do estresse através do movimento.</p>
+            </article>
+        </main>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sportilef. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
